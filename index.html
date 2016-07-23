@@ -1,0 +1,79 @@
+<html>
+<body>
+
+
+<p id="tips">
+    <strong>Startup Tagline: </strong>
+    We're Like 
+    <span class="tip">Uber</span>
+    <span class="tip">Burger King</span>
+    <span class="tip">Walmart</span>
+    <span class="tip">Red Lobster</span>
+    <span class="tip">Google</span>
+    <span class="tip">AirBNB</span>
+    <span class="tip">Dropbox</span> 
+    <span class="tip">Pandora</span>
+    <span class="tip">Spotify</span>
+    <span class="tip">Facebook</span>
+    <span class="tip">Twitter</span>
+    <span class="tip">Snapchat</span>
+    <span class="tip">Tinder</span>
+    <span class="tip">Best Buy</span> 
+    <span class="tip">Amazon</span> 
+    for 
+    <span class="tip2">Burger Lovers</span>
+    <span class="tip2">Vacation Planners</span>
+    <span class="tip2">Skateboarding</span>
+    <span class="tip2">Astronauts</span>
+    <span class="tip2">Monkeys</span>
+    <span class="tip2">Rock Stars</span>
+    <span class="tip2">Ice Cream Delivery</span> 
+    <span class="tip2">Lobsters</span>
+    <span class="tip2">Fishing</span>
+    <span class="tip2">Artists</span>
+    <span class="tip2">Astronauts</span>
+    <span class="tip2">Losers</span>
+    <span class="tip2">Teleportation</span>
+    <span class="tip2">Movies</span> 
+    <span class="tip2">Wedding Planning</span> 
+</p>
+</body>
+<footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready( function() {
+
+	        // hide all of the tips
+	        $('#tips').children('.tip').hide();
+
+	        // randomly select one tip to show
+	        var length = $("#tips .tip").length;    
+	        // **EDIT **
+	        // This code was buggy!
+	        //var ran = Math.floor(Math.random()*length) + 1;
+	        //$("#tips .tip:nth-child(" + ran + ")").show();
+	        // Use this instead:
+	        var ran = Math.floor((Math.random()*length));
+	        $('#tips > .tip:eq('+ran+')').show();
+	    });
+	</script>
+	<script type="text/javascript">
+	    $(document).ready( function() {
+
+	        // hide all of the tips
+	        $('#tips').children('.tip2').hide();
+
+	        // randomly select one tip to show
+	        var length = $("#tips .tip2").length;    
+	        // **EDIT **
+	        // This code was buggy!
+	        //var ran = Math.floor(Math.random()*length) + 1;
+	        //$("#tips .tip:nth-child(" + ran + ")").show();
+	        // Use this instead:
+	        var ran = Math.floor((Math.random()*length));
+	        $('#tips > .tip2:eq('+ran+')').show();
+	    });
+	</script>
+
+</footer>
+</html>
