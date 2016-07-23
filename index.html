@@ -1,72 +1,268 @@
-<html>
-<title>Startup Similes | Funny Business Name Generator</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Generate startup taglines using the ever-popular trend of comparing your business to another brand">
+
+    <title>Startup Similes</title>
+
+    
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+  
+
+
+    
+
+    
+
+</head>
 <body>
 
-    <h1>Your Startup Tagline: </h1>
-	<p id="tips">
-	    We're Like 
-	    <span class="tip">Uber</span>
-	    <span class="tip">Burger King</span>
-	    <span class="tip">Walmart</span>
-	    <span class="tip">Red Lobster</span>
-	    <span class="tip">Google</span>
-	    <span class="tip">AirBNB</span>
-	    <span class="tip">Dropbox</span> 
-	    <span class="tip">Pandora</span>
-	    <span class="tip">Spotify</span>
-	    <span class="tip">Facebook</span>
-	    <span class="tip">Twitter</span>
-	    <span class="tip">Snapchat</span>
-	    <span class="tip">Tinder</span>
-	    <span class="tip">Best Buy</span> 
-	    <span class="tip">Amazon</span> 
-	    <span class="tip">Home Depot</span>
-	    <span class="tip">Zillow</span>
-	    for 
-	    <span class="tip2">Burger Lovers</span>
-	    <span class="tip2">Vacation Planners</span>
-	    <span class="tip2">Skateboarding</span>
-	    <span class="tip2">Astronauts</span>
-	    <span class="tip2">Monkeys</span>
-	    <span class="tip2">Rock Stars</span>
-	    <span class="tip2">Ice Cream Delivery</span> 
-	    <span class="tip2">Lobsters</span>
-	    <span class="tip2">Fishing</span>
-	    <span class="tip2">Artists</span>
-	    <span class="tip2">Astronauts</span>
-	    <span class="tip2">Losers</span>
-	    <span class="tip2">Teleportation</span>
-	    <span class="tip2">Movies</span> 
-	    <span class="tip2">Wedding Planning</span> 
-	    <span class="tip2">The Jungle</span> 
-	    <span class="tip2">Painting</span>
-	    <span class="tip2">Horses</span>
-	    <span class="tip2">Contractors</span> 
-	    <span class="tip2">Doctors</span> 
-	    <span class="tip2">Your Backyard</span> 
-	    <span class="tip2">Apartment Hunting</span>
-	    <span class="tip2">Real Estate Agents</span>
-	    <span class="tip2">Sports Fans</span>
-	</p>
+
+
+
+
+
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Startup Similes</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <p>
+            <a class="pure-button pure-button-primary" id="startupButton">New Tagline</a>
+        </p>
+        <h1 class="splash-head" id="tips">
+
+        We're Like 
+        <span class="tip">Uber</span>
+        <span class="tip">Burger King</span>
+        <span class="tip">Walmart</span>
+        <span class="tip">Red Lobster</span>
+        <span class="tip">Google</span>
+        <span class="tip">AirBNB</span>
+        <span class="tip">Dropbox</span> 
+        <span class="tip">Pandora</span>
+        <span class="tip">Spotify</span>
+        <span class="tip">Facebook</span>
+        <span class="tip">Twitter</span>
+        <span class="tip">Snapchat</span>
+        <span class="tip">Tinder</span>
+        <span class="tip">Best Buy</span> 
+        <span class="tip">Amazon</span> 
+        <span class="tip">Home Depot</span>
+        <span class="tip">Zillow</span>
+        for 
+        <span class="tip2">Burger Lovers</span>
+        <span class="tip2">Vacation Planners</span>
+        <span class="tip2">Skateboarding</span>
+        <span class="tip2">Astronauts</span>
+        <span class="tip2">Monkeys</span>
+        <span class="tip2">Rock Stars</span>
+        <span class="tip2">Ice Cream Delivery</span> 
+        <span class="tip2">Lobsters</span>
+        <span class="tip2">Fishing</span>
+        <span class="tip2">Artists</span>
+        <span class="tip2">Astronauts</span>
+        <span class="tip2">Losers</span>
+        <span class="tip2">Teleportation</span>
+        <span class="tip2">Movies</span> 
+        <span class="tip2">Wedding Planning</span> 
+        <span class="tip2">The Jungle</span> 
+        <span class="tip2">Painting</span>
+        <span class="tip2">Horses</span>
+        <span class="tip2">Contractors</span> 
+        <span class="tip2">Doctors</span> 
+        <span class="tip2">Your Backyard</span> 
+        <span class="tip2">Apartment Hunting</span>
+        <span class="tip2">Real Estate Agents</span>
+        <span class="tip2">Sports Fans</span>
+        </h1>
+
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center" id="tips">
+
+
+        </h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Get Started Quickly
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Responsive Layouts
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Modular
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Plays Nice
+                </h3>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor.
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="password">Your Password</label>
+                        <input id="password" type="password" placeholder="Your Password">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        View the source of this layout to learn more. Made with love by the YUI Team.
+    </div>
+
+</div>
+
+
+
+
+
+
 </body>
 <footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/javascript">
-	    $(document).ready( function() {
-	        $('#tips').children('.tip').hide();
-	        var length = $("#tips .tip").length;    
-	        var ran = Math.floor((Math.random()*length));
-	        $('#tips > .tip:eq('+ran+')').show();
-	    });
-	</script>
-	<script type="text/javascript">
-	    $(document).ready( function() {
-	        $('#tips').children('.tip2').hide();
-	        var length = $("#tips .tip2").length;    
-	        var ran = Math.floor((Math.random()*length));
-	        $('#tips > .tip2:eq('+ran+')').show();
-	    });
-	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready (bizTagline =function(){
+        $(document).ready( bizName = function() {
+            $('#tips').children('.tip').hide();
+            var length = $("#tips .tip").length;    
+            var ran = Math.floor((Math.random()*length));
+            $('#tips > .tip:eq('+ran+')').show();
+        });
+        $(document).ready( compareTo = function() {
+            $('#tips').children('.tip2').hide();
+            var length = $("#tips .tip2").length;    
+            var ran = Math.floor((Math.random()*length));
+            $('#tips > .tip2:eq('+ran+')').show();
+        });
+    });
+    </script>
+    <script>
+    document.getElementById("startupButton").onclick = bizTagline;
+    </script>
 
 </footer>
 </html>
