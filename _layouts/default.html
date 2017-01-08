@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Generate startup taglines using the ever-popular trend of comparing your business to another brand">
+
+    <title>{{ page.title }} | Startup Similes</title>
+
+    
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81241381-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+</head>
+<body>
+
+	<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="http://startupsimiles.com">Startup Similes</a>
+    </div>
+</div>
+            {{ content }}
+
+   <div class="content">
+        <h2 class="content-head is-center">Obligatory Form</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="Your Email">
+
+                        <label for="password">Your Password</label>
+                        <input id="password" type="password" placeholder="Your Password">
+
+                        <button type="submit" class="pure-button">Sign Up</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    Fill this form out to be placed into our drip automation sequence. We promise to email you no more than three times a day. Well, maybe 4, when we come out with a really great ebook.
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    You gotta fill out the form to get more information. We don't just give this stuff away, ya know.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        &copy; 2016 Startup Similes Team. Still working on the right tagline for ourselves.
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready (bizTagline =function(){
+        $(document).ready( bizName = function() {
+            $('#tips').children('.tip').hide();
+            var length = $("#tips .tip").length;    
+            var ran = Math.floor((Math.random()*length));
+            $('#tips > .tip:eq('+ran+')').show();
+        });
+        $(document).ready( compareTo = function() {
+            $('#tips').children('.tip2').hide();
+            var length = $("#tips .tip2").length;    
+            var ran = Math.floor((Math.random()*length));
+            $('#tips > .tip2:eq('+ran+')').show();
+        });
+    });
+    </script>
+    <script>
+    document.getElementById("startupButton").onclick = bizTagline;
+    </script>
+
+</footer>
+</html>
